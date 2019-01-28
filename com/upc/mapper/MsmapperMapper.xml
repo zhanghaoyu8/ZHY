@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.upc.mapper.MsmapperMapper">
+    <resultMap id="BaseResultMap" type="com.upc.model.Msmapper">
+        <id column="msmapper_id" jdbcType="INTEGER" property="msmapperId"/>
+        <result column="medicine_id" jdbcType="INTEGER" property="medicineId"/>
+        <result column="sickness_id" jdbcType="INTEGER" property="sicknessId"/>
+        <result column="sname" jdbcType="VARCHAR" property="sname"/>
+        <result column="mname" jdbcType="VARCHAR" property="mname"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    msmapper_id, medicine_id, sickness_id, sname, mname
+    </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from msmapper
+        where msmapper_id = #{msmapperId,jdbcType=INTEGER}
+    </select>
+    <select id="selectBySickName" parameterType="java.lang.String" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM msmapper
+        WHERE sname = #{sname,jdbcType=VARCHAR}
+    </select>
+   
+    <insert id="insert" parameterType="com.upc.model.Msmapper">
+    insert into msmapper (sname, mname)
+    values ( #{sname,jdbcType=VARCHAR}, #{mname,jdbcType=VARCHAR} )
+    </insert>
+</mapper>

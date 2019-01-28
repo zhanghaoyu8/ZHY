@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.upc.mapper.RecipeMapper">
+  <resultMap id="BaseResultMap" type="com.upc.model.Recipe">
+    <id column="rid" jdbcType="INTEGER" property="rid" />
+    <result column="iname" jdbcType="VARCHAR" property="iname" />
+    <result column="sname" jdbcType="VARCHAR" property="sname" />
+    <result column="symptom" jdbcType="VARCHAR" property="symptom" />
+    <result column="matchs" jdbcType="INTEGER" property="matchs" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    rid, iname, sname, symptom, matchs
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from recipe
+    where rid = #{rid,jdbcType=INTEGER}
+  </select>
+
+  <insert id="insert" parameterType="com.upc.model.Recipe">
+    insert into recipe (iname, sname,
+      symptom,matchs)
+    values (#{iname,jdbcType=VARCHAR}, #{sname,jdbcType=VARCHAR},
+      #{symptom,jdbcType=VARCHAR},#{matchs,jdbcType=INTEGER})
+  </insert><select id="selectByIname" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from recipe
+    where iname = #{iname,jdbcType=VARCHAR}
+  </select>
+  
+
+
+</mapper>

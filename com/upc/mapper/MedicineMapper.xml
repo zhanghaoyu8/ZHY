@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.upc.mapper.MedicineMapper">
+    <resultMap id="BaseResultMap" type="com.upc.model.Medicine">
+        <id column="medicine_id" jdbcType="INTEGER" property="medicineId"/>
+        <result column="medicine_name" jdbcType="VARCHAR" property="medicineName"/>
+        <result column="price" jdbcType="REAL" property="price"/>
+        <result column="effect" jdbcType="VARCHAR" property="effect"/>
+        <result column="composition" jdbcType="VARCHAR" property="composition"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        medicine_id, medicine_name, price,effect,composition
+    </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from medicine
+        where medicine_id = #{medicineId,jdbcType=INTEGER}
+    </select>
+
+    <select id="selectByMname" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from medicine
+        where medicine_name = #{mname,jdbcType=VARCHAR}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from medicine
+        where medicine_id = #{medicineId,jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" parameterType="com.upc.model.Medicine">
+        insert into medicine ( medicine_name, price,effect,composition )
+        values (#{medicineName,jdbcType=VARCHAR},
+        #{price,jdbcType=REAL},#{effect},#{composition}
+        )
+    </insert>
+    <insert id="insertSelective" parameterType="com.upc.model.Medicine">
+        insert into medicine
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+
+            <if test="medicineName != null">
+                medicine_name,
+            </if>
+            <if test="price != null">
+                price,
+            </if>
+            <if test="effect != null">
+                effect,
+            </if>
+            <if test="composition != null">
+                composition
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="medicineId != null">
+                #{medicineId,jdbcType=INTEGER},
+            </if>
+            <if test="medicineName != null">
+                #{medicineName,jdbcType=VARCHAR},
+            </if>
+            <if test="price != null">
+                #{price,jdbcType=REAL},
+            </if>
+            <if test="effect != null">
+                #{effect,jdbcType=VARCHAR},
+            </if>
+            <if test="composition != null">
+                #{composition,jdbcType=VARCHAR}
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="com.upc.model.Medicine">
+        update medicine
+        <set>
+            <if test="medicineName != null">
+                medicine_name = #{medicineName,jdbcType=VARCHAR},
+            </if>
+            <if test="price != null">
+                price = #{price,jdbcType=REAL},
+            </if>
+        </set>
+        where medicine_id = #{medicineId,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.upc.model.Medicine">
+        update medicine
+        set medicine_name = #{medicineName,jdbcType=VARCHAR},
+        price = #{price,jdbcType=REAL}
+        where medicine_id = #{medicineId,jdbcType=INTEGER}
+    </update>
+</mapper>

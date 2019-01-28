@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.upc.mapper.OutsideOperationMapper">
+    <resultMap id="BaseResultMap" type="com.upc.model.OutsideOperation">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="sic_name" jdbcType="VARCHAR" property="sicName"/>
+        <result column="ope_name" jdbcType="VARCHAR" property="opeName"/>
+        <result column="content1" jdbcType="VARCHAR" property="content1"/>
+        <result column="content2" jdbcType="VARCHAR" property="content2"/>
+        <result column="content3" jdbcType="VARCHAR" property="content3"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, sic_name, ope_name,content1,content2,content3
+    </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from outsideoperation
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+
+    <select id="selectBySname" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from outsideoperation
+        where sic_name = #{sname,jdbcType=VARCHAR}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from outsideoperation
+        where id = #{id,jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" parameterType="com.upc.model.OutsideOperation">
+        insert into outsideoperation ( sic_name, ope_name,content1,content2,content3 )
+        values (#{sicName,jdbcType=VARCHAR},
+        #{opeName,jdbcType=VARCHAR},#{content1},#{content2},#{content3}
+        )
+    </insert>
+    <insert id="insertSelective" parameterType="com.upc.model.OutsideOperation">
+        insert into outsideoperation
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+
+            <if test="sicName != null">
+                sic_name,
+            </if>
+            <if test="opeName != null">
+                opeName,
+            </if>
+            <if test="content1 != null">
+                content1,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="sicName != null">
+                #{sicName,jdbcType=VARCHAR},
+            </if>
+            <if test="opeName != null">
+                #{opeName,jdbcType=VARCHAR},
+            </if>
+            <if test="content1 != null">
+                #{content1,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="com.upc.model.OutsideOperation">
+        update outsidoperation
+        <set>
+            <if test="sicName != null">
+                sic_name = #{sicName,jdbcType=VARCHAR},
+            </if>
+            <if test="opeName != null">
+                ope_name = #{opeName,jdbcType=VARCHAR},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.upc.model.OutsideOperation">
+        update outsideoperation
+        set sic_name = #{sicName,jdbcType=VARCHAR},
+        ope_name = #{opeName,jdbcType=VARCHAR}
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+</mapper>

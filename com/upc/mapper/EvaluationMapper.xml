@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.upc.mapper.EvaluationMapper">
+  <resultMap id="BaseResultMap" type="com.upc.model.Evaluation">
+    <id column="evaluation_id" jdbcType="INTEGER" property="evaluationId" />
+    <result column="evaluate_time" jdbcType="DATE" property="evaluateTime" />
+    <result column="score" jdbcType="INTEGER" property="score" />
+    <result column="medicine_id" jdbcType="INTEGER" property="medicineId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    evaluation_id, evaluate_time, score, medicine_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from evaluation
+    where evaluation_id = #{evaluationId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from evaluation
+    where evaluation_id = #{evaluationId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.upc.model.Evaluation">
+    insert into evaluation (evaluation_id, evaluate_time, score, 
+      medicine_id)
+    values (#{evaluationId,jdbcType=INTEGER}, #{evaluateTime,jdbcType=DATE}, #{score,jdbcType=INTEGER}, 
+      #{medicineId,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.upc.model.Evaluation">
+    insert into evaluation
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="evaluationId != null">
+        evaluation_id,
+      </if>
+      <if test="evaluateTime != null">
+        evaluate_time,
+      </if>
+      <if test="score != null">
+        score,
+      </if>
+      <if test="medicineId != null">
+        medicine_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="evaluationId != null">
+        #{evaluationId,jdbcType=INTEGER},
+      </if>
+      <if test="evaluateTime != null">
+        #{evaluateTime,jdbcType=DATE},
+      </if>
+      <if test="score != null">
+        #{score,jdbcType=INTEGER},
+      </if>
+      <if test="medicineId != null">
+        #{medicineId,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.upc.model.Evaluation">
+    update evaluation
+    <set>
+      <if test="evaluateTime != null">
+        evaluate_time = #{evaluateTime,jdbcType=DATE},
+      </if>
+      <if test="score != null">
+        score = #{score,jdbcType=INTEGER},
+      </if>
+      <if test="medicineId != null">
+        medicine_id = #{medicineId,jdbcType=INTEGER},
+      </if>
+    </set>
+    where evaluation_id = #{evaluationId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.upc.model.Evaluation">
+    update evaluation
+    set evaluate_time = #{evaluateTime,jdbcType=DATE},
+      score = #{score,jdbcType=INTEGER},
+      medicine_id = #{medicineId,jdbcType=INTEGER}
+    where evaluation_id = #{evaluationId,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.upc.mapper.SickdetailMapper">
+    <resultMap id="BaseResultMap" type="com.upc.model.Sickdetail">
+        <id column="sd_id" jdbcType="INTEGER" property="sdId"/>
+        <result column="ill_name" jdbcType="VARCHAR" property="illName"/>
+        <result column="sd_name" jdbcType="VARCHAR" property="sdName"/>
+        <result column="sd_performance" jdbcType="VARCHAR" property="sdPerformance"/>
+        <result column="sd_index" jdbcType="INTEGER" property="sdIndex"/>
+        <result column="sd_index" jdbcType="VARCHAR" property="describe"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    sd_id, ill_name, sd_name, sd_performance, sd_index,describe
+  </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from sickdetail
+        where sd_id = #{sdId,jdbcType=INTEGER}
+    </select>
+
+    <select id="selectByIllName" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from sickdetail
+        where ill_name=#{illname,jdbcType=VARCHAR} order by sd_index
+    </select>
+    <select id="selectByKeyField" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from sickdetail
+        where ill_name=#{iname} and sd_name=#{sdname} and sd_performance=#{sdp}
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from sickdetail
+    where sd_id = #{sdId,jdbcType=INTEGER}
+  </delete>
+    <insert id="insert" parameterType="com.upc.model.Sickdetail">
+    insert into sickdetail (ill_name, sd_name,
+      sd_performance, sd_index,describe)
+    values (#{illName,jdbcType=VARCHAR}, #{sdName,jdbcType=VARCHAR},
+      #{sdPerformance,jdbcType=VARCHAR}, #{sdIndex,jdbcType=INTEGER},#{describe,jdbcType=VARCHAR})
+  </insert>
+    <insert id="insertSelective" parameterType="com.upc.model.Sickdetail">
+        insert into sickdetail
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="sdId != null">
+                sd_id,
+            </if>
+            <if test="illName != null">
+                ill_name,
+            </if>
+            <if test="sdName != null">
+                sd_name,
+            </if>
+            <if test="sdPerformance != null">
+                sd_performance,
+            </if>
+            <if test="sdIndex != null">
+                sd_index,
+            </if>
+            <if test="describe != null">
+                describe,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="sdId != null">
+                #{sdId,jdbcType=INTEGER},
+            </if>
+            <if test="illName != null">
+                #{illName,jdbcType=VARCHAR},
+            </if>
+            <if test="sdName != null">
+                #{sdName,jdbcType=VARCHAR},
+            </if>
+            <if test="sdPerformance != null">
+                #{sdPerformance,jdbcType=VARCHAR},
+            </if>
+            <if test="sdIndex != null">
+                #{sdIndex,jdbcType=INTEGER},
+            </if>
+            <if test="describe != null">
+                #{describe,jdbcType=VAERCHAR},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.upc.model.Sickdetail">
+        update sickdetail
+        <set>
+            <if test="illName != null">
+                ill_name = #{illName,jdbcType=VARCHAR},
+            </if>
+            <if test="sdName != null">
+                sd_name = #{sdName,jdbcType=VARCHAR},
+            </if>
+            <if test="sdPerformance != null">
+                sd_performance = #{sdPerformance,jdbcType=VARCHAR},
+            </if>
+            <if test="sdIndex != null">
+                sd_index = #{sdIndex,jdbcType=INTEGER},
+            </if>
+            <if test="describe != null">
+                sd_index = #{describe,jdbcType=VARCHAR},
+            </if>
+        </set>
+        where sd_id = #{sdId,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.upc.model.Sickdetail">
+    update sickdetail
+    set ill_name = #{illName,jdbcType=VARCHAR},
+      sd_name = #{sdName,jdbcType=VARCHAR},
+      sd_performance = #{sdPerformance,jdbcType=VARCHAR},
+      sd_index = #{sdIndex,jdbcType=INTEGER}
+      describe = #{describe,jdbcType=VARCHAR}
+    where sd_id = #{sdId,jdbcType=INTEGER}
+  </update>
+</mapper>

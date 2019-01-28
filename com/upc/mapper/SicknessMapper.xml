@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.upc.mapper.SicknessMapper">
+  <resultMap id="BaseResultMap" type="com.upc.model.Sickness">
+    <id column="sickness_id" jdbcType="INTEGER" property="sicknessId" />
+    <result column="sick_name" jdbcType="VARCHAR" property="sickName" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    sickness_id, sick_name
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from sickness
+    where sickness_id = #{sicknessId,jdbcType=INTEGER}
+  </select>
+  <select id="selectBySname" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from sickness
+    where sick_name = #{sname}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from sickness
+    where sickness_id = #{sicknessId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.upc.model.Sickness">
+    insert into sickness (sick_name)
+    values (#{sickName,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.upc.model.Sickness">
+    insert into sickness
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="sicknessId != null">
+        sickness_id,
+      </if>
+      <if test="sickName != null">
+        sick_name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="sicknessId != null">
+        #{sicknessId,jdbcType=INTEGER},
+      </if>
+      <if test="sickName != null">
+        #{sickName,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.upc.model.Sickness">
+    update sickness
+    <set>
+      <if test="sickName != null">
+        sick_name = #{sickName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where sickness_id = #{sicknessId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.upc.model.Sickness">
+    update sickness
+    set sick_name = #{sickName,jdbcType=VARCHAR}
+    where sickness_id = #{sicknessId,jdbcType=INTEGER}
+  </update>
+</mapper>

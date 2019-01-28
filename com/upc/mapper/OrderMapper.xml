@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.upc.mapper.OrderMapper">
+  <resultMap id="BaseResultMap" type="com.upc.model.Order">
+    <id column="oid" jdbcType="INTEGER" property="oid" />
+    <result column="onum" jdbcType="VARCHAR" property="onum" />
+    <result column="uid" jdbcType="INTEGER" property="uid" />
+    <result column="medicine_id" jdbcType="INTEGER" property="medicineId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    oid, onum, uid, medicine_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from order
+    where oid = #{oid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from order
+    where oid = #{oid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.upc.model.Order">
+    insert into order (oid, onum, uid, 
+      medicine_id)
+    values (#{oid,jdbcType=INTEGER}, #{onum,jdbcType=VARCHAR}, #{uid,jdbcType=INTEGER}, 
+      #{medicineId,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.upc.model.Order">
+    insert into order
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="oid != null">
+        oid,
+      </if>
+      <if test="onum != null">
+        onum,
+      </if>
+      <if test="uid != null">
+        uid,
+      </if>
+      <if test="medicineId != null">
+        medicine_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="oid != null">
+        #{oid,jdbcType=INTEGER},
+      </if>
+      <if test="onum != null">
+        #{onum,jdbcType=VARCHAR},
+      </if>
+      <if test="uid != null">
+        #{uid,jdbcType=INTEGER},
+      </if>
+      <if test="medicineId != null">
+        #{medicineId,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.upc.model.Order">
+    update order
+    <set>
+      <if test="onum != null">
+        onum = #{onum,jdbcType=VARCHAR},
+      </if>
+      <if test="uid != null">
+        uid = #{uid,jdbcType=INTEGER},
+      </if>
+      <if test="medicineId != null">
+        medicine_id = #{medicineId,jdbcType=INTEGER},
+      </if>
+    </set>
+    where oid = #{oid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.upc.model.Order">
+    update order
+    set onum = #{onum,jdbcType=VARCHAR},
+      uid = #{uid,jdbcType=INTEGER},
+      medicine_id = #{medicineId,jdbcType=INTEGER}
+    where oid = #{oid,jdbcType=INTEGER}
+  </update>
+</mapper>
