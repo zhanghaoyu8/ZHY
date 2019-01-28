@@ -1,0 +1,227 @@
+
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.switchTab",
+      "ph": "X",
+      "ts": 24252000,
+      "args": {
+        "args": {
+          "url": "page/htzx/index.html"
+        },
+        "res": {
+          "errMsg": "switchTab:ok"
+        }
+      },
+      "dur": 116000
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 24439000,
+      "args": {
+        "FPS": 43.478261
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 2,
+      "tid": 3,
+      "cat": "page/htzx/index",
+      "name": "Page.onReady",
+      "ph": "X",
+      "ts": 24536000,
+      "dur": 0
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 24580000,
+      "args": {
+        "FPS": 53.030303
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 24686000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 25150000,
+      "args": {
+        "FPS": 11.135857
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 25248000,
+      "args": {
+        "FPS": 44.642857
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 25419000,
+      "args": {
+        "FPS": 30.120482
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 25529000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "CPU(%)",
+      "ph": "C",
+      "ts": 26250000,
+      "args": {
+        "CPU": 13.715415
+      },
+      "min": 0,
+      "max": 100
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "MEMORY(MB)",
+      "ph": "C",
+      "ts": 26410000,
+      "args": {
+        "MEMORY": 187
+      },
+      "min": 0,
+      "max": 5730.03125
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 29046000,
+      "args": {
+        "FPS": 24.096386
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 29213000,
+      "args": {
+        "FPS": 6.024096
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 29325000,
+      "args": {
+        "FPS": 35.087719
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "CPU(%)",
+      "ph": "C",
+      "ts": 29418000,
+      "args": {
+        "CPU": 4.339172
+      },
+      "min": 0,
+      "max": 100
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 29440000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "MEMORY(MB)",
+      "ph": "C",
+      "ts": 29580000,
+      "args": {
+        "MEMORY": 192
+      },
+      "min": 0,
+      "max": 5730.03125
+    }
+  ],
+  "otherData": {
+    "version": "1.0.0"
+  }
+}

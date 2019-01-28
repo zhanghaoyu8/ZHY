@@ -1,0 +1,2209 @@
+{
+  "traceEvents": [
+    {
+      "name": "process_name",
+      "ph": "M",
+      "ts": 0,
+      "pid": 1,
+      "tid": 0,
+      "cat": "__metadata",
+      "args": {
+        "name": "Hardware"
+      }
+    },
+    {
+      "name": "process_name",
+      "ph": "M",
+      "ts": 0,
+      "pid": 2,
+      "tid": 0,
+      "cat": "__metadata",
+      "args": {
+        "name": "MiniProgram"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "ts": 0,
+      "pid": 2,
+      "tid": 1,
+      "cat": "__metadata",
+      "args": {
+        "name": "API"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "ts": 0,
+      "pid": 2,
+      "tid": 1,
+      "cat": "__metadata",
+      "args": {
+        "name": "App"
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 1,
+      "cat": "App",
+      "name": "App.onLaunch",
+      "ph": "X",
+      "ts": 1194000,
+      "dur": 0
+    },
+    {
+      "pid": 2,
+      "tid": 1,
+      "cat": "App",
+      "name": "App.onShow",
+      "ph": "X",
+      "ts": 1196000,
+      "dur": 0
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "ts": 0,
+      "pid": 2,
+      "tid": 2,
+      "cat": "__metadata",
+      "args": {
+        "name": "page/htzx/shouye/shouye"
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 2,
+      "cat": "page/htzx/shouye/shouye",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 1224000,
+      "args": {
+        "dataSize": 2
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 2,
+      "cat": "page/htzx/shouye/shouye",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 1224000,
+      "args": {
+        "dataSize": 2
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 2,
+      "cat": "page/htzx/shouye/shouye",
+      "name": "Page.onLoad",
+      "ph": "X",
+      "ts": 1223000,
+      "dur": 2000
+    },
+    {
+      "pid": 2,
+      "tid": 2,
+      "cat": "page/htzx/shouye/shouye",
+      "name": "Page.onShow",
+      "ph": "X",
+      "ts": 1227000,
+      "dur": 1000
+    },
+    {
+      "pid": 2,
+      "tid": 2,
+      "cat": "page/htzx/shouye/shouye",
+      "name": "Page.onReady",
+      "ph": "X",
+      "ts": 1367000,
+      "dur": 0
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "CPU(%)",
+      "ph": "C",
+      "ts": 1393000,
+      "args": {
+        "CPU": 0
+      },
+      "min": 0,
+      "max": 100
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "MEMORY(MB)",
+      "ph": "C",
+      "ts": 1490000,
+      "args": {
+        "MEMORY": 177
+      },
+      "min": 0,
+      "max": 5730.03125
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 1517000,
+      "args": {
+        "FPS": 51.724138
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 1633000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 1798000,
+      "args": {
+        "FPS": 6.666667
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 1896000,
+      "args": {
+        "FPS": 35.087719
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 2012000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "CPU(%)",
+      "ph": "C",
+      "ts": 4497000,
+      "args": {
+        "CPU": 6.304079
+      },
+      "min": 0,
+      "max": 100
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "MEMORY(MB)",
+      "ph": "C",
+      "ts": 4589000,
+      "args": {
+        "MEMORY": 173
+      },
+      "min": 0,
+      "max": 5730.03125
+    },
+    {
+      "pid": 2,
+      "tid": 2,
+      "cat": "page/htzx/shouye/shouye",
+      "name": "Page.st",
+      "ph": "X",
+      "ts": 7333000,
+      "dur": 16000
+    },
+    {
+      "pid": 2,
+      "tid": 2,
+      "cat": "page/htzx/shouye/shouye",
+      "name": "Page.onUnload",
+      "ph": "X",
+      "ts": 7401000,
+      "dur": 0
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "ts": 0,
+      "pid": 2,
+      "tid": 3,
+      "cat": "__metadata",
+      "args": {
+        "name": "page/htzx/index"
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 3,
+      "cat": "page/htzx/index",
+      "name": "Page.onLoad",
+      "ph": "X",
+      "ts": 7405000,
+      "dur": 0
+    },
+    {
+      "pid": 2,
+      "tid": 3,
+      "cat": "page/htzx/index",
+      "name": "Page.onShow",
+      "ph": "X",
+      "ts": 7406000,
+      "dur": 0
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "ts": 0,
+      "pid": 2,
+      "tid": 4,
+      "cat": "__metadata",
+      "args": {
+        "name": "API"
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.switchTab",
+      "ph": "X",
+      "ts": 7335000,
+      "args": {
+        "args": {
+          "url": "page/htzx/index.html"
+        },
+        "res": {
+          "errMsg": "switchTab:ok"
+        }
+      },
+      "dur": 73000
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 7442000,
+      "args": {
+        "FPS": 34.482759
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 2,
+      "tid": 3,
+      "cat": "page/htzx/index",
+      "name": "Page.onReady",
+      "ph": "X",
+      "ts": 7552000,
+      "dur": 0
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 7557000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "CPU(%)",
+      "ph": "C",
+      "ts": 7594000,
+      "args": {
+        "CPU": 3.725166
+      },
+      "min": 0,
+      "max": 100
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 7673000,
+      "args": {
+        "FPS": 51.724138
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "MEMORY(MB)",
+      "ph": "C",
+      "ts": 7744000,
+      "args": {
+        "MEMORY": 203
+      },
+      "min": 0,
+      "max": 5730.03125
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 7958000,
+      "args": {
+        "FPS": 21.276596
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 8074000,
+      "args": {
+        "FPS": 26.315789
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 8184000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 2,
+      "tid": 3,
+      "cat": "page/htzx/index",
+      "name": "Page.onHide",
+      "ph": "X",
+      "ts": 10567000,
+      "dur": 0
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "ts": 0,
+      "pid": 2,
+      "tid": 5,
+      "cat": "__metadata",
+      "args": {
+        "name": "page/htzx/sickness/sickness"
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 5,
+      "cat": "page/htzx/sickness/sickness",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 10595000,
+      "args": {
+        "dataSize": 146
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 5,
+      "cat": "page/htzx/sickness/sickness",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 10595000,
+      "args": {
+        "dataSize": 146
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 5,
+      "cat": "page/htzx/sickness/sickness",
+      "name": "Page.onLoad",
+      "ph": "X",
+      "ts": 10589000,
+      "dur": 7000
+    },
+    {
+      "pid": 2,
+      "tid": 5,
+      "cat": "page/htzx/sickness/sickness",
+      "name": "Page.onShow",
+      "ph": "X",
+      "ts": 10597000,
+      "dur": 0
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 10611000,
+      "args": {
+        "FPS": 52.173913
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.setNavigationBarTitle",
+      "ph": "X",
+      "ts": 10590000,
+      "args": {
+        "args": {
+          "title": ""
+        },
+        "res": {
+          "errMsg": "setNavigationBarTitle:ok"
+        }
+      },
+      "dur": 17000
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.setNavigationBarColor",
+      "ph": "X",
+      "ts": 10593000,
+      "args": {
+        "args": {
+          "frontColor": "#ffffff",
+          "backgroundColor": "#855eef"
+        },
+        "res": {
+          "errMsg": "setNavigationBarColor:ok"
+        }
+      },
+      "dur": 20000
+    },
+    {
+      "pid": 2,
+      "tid": 5,
+      "cat": "page/htzx/sickness/sickness",
+      "name": "Page.onReady",
+      "ph": "X",
+      "ts": 10665000,
+      "dur": 0
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 10726000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "CPU(%)",
+      "ph": "C",
+      "ts": 10747000,
+      "args": {
+        "CPU": 8.126778
+      },
+      "min": 0,
+      "max": 100
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "MEMORY(MB)",
+      "ph": "C",
+      "ts": 10845000,
+      "args": {
+        "MEMORY": 198
+      },
+      "min": 0,
+      "max": 5730.03125
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 11413000,
+      "args": {
+        "FPS": 21.021021
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 11524000,
+      "args": {
+        "FPS": 44.247788
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 11634000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 2,
+      "tid": 5,
+      "cat": "page/htzx/sickness/sickness",
+      "name": "Page.onHide",
+      "ph": "X",
+      "ts": 11932000,
+      "dur": 0
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 12006000,
+      "args": {
+        "FPS": 37.878788
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "ts": 0,
+      "pid": 2,
+      "tid": 6,
+      "cat": "__metadata",
+      "args": {
+        "name": "page/htzx/qs/index"
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.onLoad",
+      "ph": "X",
+      "ts": 11945000,
+      "dur": 50000
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.onShow",
+      "ph": "X",
+      "ts": 11997000,
+      "dur": 0
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.onReady",
+      "ph": "X",
+      "ts": 12108000,
+      "dur": 0
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 12112000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 12354000,
+      "args": {
+        "dataSize": 663
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 12354000,
+      "args": {
+        "dataSize": 663
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 12359000,
+      "args": {
+        "dataSize": 45
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 12359000,
+      "args": {
+        "dataSize": 45
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.request",
+      "ph": "X",
+      "ts": 11952000,
+      "args": {
+        "args": {
+          "url": "https://www.wyzyschool.com/htzx/symptoms?illname=%E6%84%9F%E5%86%92",
+          "data": {
+            "illname": "感冒"
+          },
+          "method": "GET",
+          "header": {
+            "content-type": "application/json"
+          },
+          "dataType": "json"
+        },
+        "res": {
+          "data": [
+            {
+              "sickname": "发热重",
+              "sdPerformance": [
+                "有",
+                "无"
+              ],
+              "sdId": [
+                3723,
+                3722
+              ]
+            },
+            {
+              "sickname": "微恶风",
+              "sdPerformance": [
+                "有",
+                "无"
+              ],
+              "sdId": [
+                3724,
+                3725
+              ]
+            },
+            {
+              "sickname": "全身酸痛",
+              "sdPerformance": [
+                "有",
+                "无"
+              ],
+              "sdId": [
+                3726,
+                3727
+              ]
+            },
+            {
+              "sickname": "头胀痛",
+              "sdPerformance": [
+                "有",
+                "无"
+              ],
+              "sdId": [
+                3728,
+                3729
+              ]
+            },
+            {
+              "sickname": "咽喉红肿疼痛",
+              "sdPerformance": [
+                "有",
+                "无"
+              ],
+              "sdId": [
+                3730,
+                3731
+              ]
+            },
+            {
+              "sickname": "流清涕",
+              "sdPerformance": [
+                "有",
+                "无"
+              ],
+              "sdId": [
+                3732,
+                3733
+              ]
+            },
+            {
+              "sickname": "鼻流黄涕",
+              "sdPerformance": [
+                "有",
+                "无"
+              ],
+              "sdId": [
+                3734,
+                3735
+              ]
+            },
+            {
+              "sickname": "痰白质稀",
+              "sdPerformance": [
+                "有",
+                "无"
+              ],
+              "sdId": [
+                3736,
+                3737
+              ]
+            },
+            {
+              "sickname": "痰液色黄，质粘稠",
+              "sdPerformance": [
+                "有",
+                "无"
+              ],
+              "sdId": [
+                3738,
+                3739
+              ]
+            },
+            {
+              "sickname": "口渴喜饮",
+              "sdPerformance": [
+                "有",
+                "无"
+              ],
+              "sdId": [
+                3740,
+                3741
+              ]
+            }
+          ],
+          "header": {
+            "Content-Length": "777",
+            "Content-Type": "text/plain;charset=UTF-8",
+            "Date": "Sat, 15 Dec 2018 14:12:02 GMT",
+            "X-Android-Received-Millis": "1544883121947",
+            "X-Android-Response-Source": "NETWORK 200",
+            "X-Android-Selected-Protocol": "http/1.1",
+            "X-Android-Sent-Millis": "1544883121864"
+          },
+          "statusCode": 200,
+          "errMsg": "request:ok"
+        }
+      },
+      "dur": 407000
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.showToast",
+      "ph": "X",
+      "ts": 12353000,
+      "args": {
+        "args": {
+          "title": "请求成功",
+          "icon": "success",
+          "mask": true,
+          "duration": 100
+        },
+        "res": {
+          "errMsg": "showToast:ok"
+        }
+      },
+      "dur": 23000
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 12809000,
+      "args": {
+        "FPS": 12.931034
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 12928000,
+      "args": {
+        "FPS": 43.859649
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 13037000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 13140000,
+      "args": {
+        "dataSize": 36
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 13140000,
+      "args": {
+        "dataSize": 36
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.radioChange",
+      "ph": "X",
+      "ts": 13138000,
+      "dur": 6000
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 13702000,
+      "args": {
+        "dataSize": 39
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 13702000,
+      "args": {
+        "dataSize": 39
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.radioChange",
+      "ph": "X",
+      "ts": 13699000,
+      "dur": 12000
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "CPU(%)",
+      "ph": "C",
+      "ts": 13852000,
+      "args": {
+        "CPU": 16.777409
+      },
+      "min": 0,
+      "max": 100
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "MEMORY(MB)",
+      "ph": "C",
+      "ts": 14015000,
+      "args": {
+        "MEMORY": 232
+      },
+      "min": 0,
+      "max": 5730.03125
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 15475000,
+      "args": {
+        "dataSize": 42
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 15475000,
+      "args": {
+        "dataSize": 42
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.radioChange",
+      "ph": "X",
+      "ts": 15473000,
+      "dur": 9000
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 15832000,
+      "args": {
+        "dataSize": 45
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 15832000,
+      "args": {
+        "dataSize": 45
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.radioChange",
+      "ph": "X",
+      "ts": 15831000,
+      "dur": 7000
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 16640000,
+      "args": {
+        "dataSize": 48
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 16640000,
+      "args": {
+        "dataSize": 48
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.radioChange",
+      "ph": "X",
+      "ts": 16639000,
+      "dur": 7000
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "CPU(%)",
+      "ph": "C",
+      "ts": 17024000,
+      "args": {
+        "CPU": 14.187827
+      },
+      "min": 0,
+      "max": 100
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "MEMORY(MB)",
+      "ph": "C",
+      "ts": 17176000,
+      "args": {
+        "MEMORY": 241
+      },
+      "min": 0,
+      "max": 5730.03125
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 17247000,
+      "args": {
+        "dataSize": 51
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 17247000,
+      "args": {
+        "dataSize": 51
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.radioChange",
+      "ph": "X",
+      "ts": 17247000,
+      "dur": 1000
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 17943000,
+      "args": {
+        "dataSize": 54
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 17943000,
+      "args": {
+        "dataSize": 54
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.radioChange",
+      "ph": "X",
+      "ts": 17941000,
+      "dur": 11000
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 18617000,
+      "args": {
+        "dataSize": 57
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 18617000,
+      "args": {
+        "dataSize": 57
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.radioChange",
+      "ph": "X",
+      "ts": 18616000,
+      "dur": 11000
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 19269000,
+      "args": {
+        "dataSize": 60
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 19269000,
+      "args": {
+        "dataSize": 60
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.radioChange",
+      "ph": "X",
+      "ts": 19267000,
+      "dur": 20000
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 20020000,
+      "args": {
+        "dataSize": 63
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 20020000,
+      "args": {
+        "dataSize": 63
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.radioChange",
+      "ph": "X",
+      "ts": 20018000,
+      "dur": 7000
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "CPU(%)",
+      "ph": "C",
+      "ts": 20187000,
+      "args": {
+        "CPU": 14.372716
+      },
+      "min": 0,
+      "max": 100
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "MEMORY(MB)",
+      "ph": "C",
+      "ts": 20366000,
+      "args": {
+        "MEMORY": 251
+      },
+      "min": 0,
+      "max": 5730.03125
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.probe",
+      "ph": "X",
+      "ts": 21101000,
+      "dur": 13000
+    },
+    {
+      "pid": 2,
+      "tid": 6,
+      "cat": "page/htzx/qs/index",
+      "name": "Page.onUnload",
+      "ph": "X",
+      "ts": 21174000,
+      "dur": 0
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "ts": 0,
+      "pid": 2,
+      "tid": 7,
+      "cat": "__metadata",
+      "args": {
+        "name": "page/htzx/middle/middle"
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 7,
+      "cat": "page/htzx/middle/middle",
+      "name": "Page.onLoad",
+      "ph": "X",
+      "ts": 21178000,
+      "dur": 3000
+    },
+    {
+      "pid": 2,
+      "tid": 7,
+      "cat": "page/htzx/middle/middle",
+      "name": "Page.onShow",
+      "ph": "X",
+      "ts": 21182000,
+      "dur": 0
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.redirectTo",
+      "ph": "X",
+      "ts": 21107000,
+      "args": {
+        "args": {
+          "url": "page/htzx/middle/middle.html?req=3723%2C3724%2C3727%2C3729%2C3731%2C3733%2C3734%2C3736%2C3739%2C3740&sick=%E6%84%9F%E5%86%92"
+        },
+        "res": {
+          "errMsg": "redirectTo:ok"
+        }
+      },
+      "dur": 76000
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.setNavigationBarTitle",
+      "ph": "X",
+      "ts": 21179000,
+      "args": {
+        "args": {
+          "title": "诊断结果"
+        },
+        "res": {
+          "errMsg": "setNavigationBarTitle:ok"
+        }
+      },
+      "dur": 26000
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.setNavigationBarColor",
+      "ph": "X",
+      "ts": 21179000,
+      "args": {
+        "args": {
+          "frontColor": "#ffffff",
+          "backgroundColor": "#855eef"
+        },
+        "res": {
+          "errMsg": "setNavigationBarColor:ok"
+        }
+      },
+      "dur": 27000
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 21239000,
+      "args": {
+        "FPS": 43.103448
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 2,
+      "tid": 7,
+      "cat": "page/htzx/middle/middle",
+      "name": "Page.onReady",
+      "ph": "X",
+      "ts": 21285000,
+      "dur": 0
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 21355000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 21728000,
+      "args": {
+        "FPS": 16.064257
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 2,
+      "tid": 7,
+      "cat": "page/htzx/middle/middle",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 21740000,
+      "args": {
+        "dataSize": 1154
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 7,
+      "cat": "page/htzx/middle/middle",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 21740000,
+      "args": {
+        "dataSize": 1154
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.request",
+      "ph": "X",
+      "ts": 21180000,
+      "args": {
+        "args": {
+          "url": "https://www.wyzyschool.com/htzx/msmapper",
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "data": {
+            "illname": "感冒",
+            "us": [
+              3723,
+              3724,
+              3727,
+              3729,
+              3731,
+              3733,
+              3734,
+              3736,
+              3739,
+              3740
+            ]
+          },
+          "header": {
+            "content-type": "application/json"
+          },
+          "dataType": "json"
+        },
+        "res": {
+          "data": {
+            "sickname": "风热感冒",
+            "medicines": [
+              {
+                "medicineId": 80,
+                "medicineName": "莲花清瘟颗粒",
+                "price": 29,
+                "effect": "清瘟解毒，宣肺泄热。用于治疗流行性感冒属热毒袭肺证，症见发热或高热恶寒、肌肉酸痛、鼻塞流涕、咳嗽、头痛、咽干咽痛。",
+                "composition": "连翘、金银花、麻黄、炒苦杏仁、石膏、板蓝根、绵马贯众、鱼腥草、广藿香、大黄、红景天、薄荷脑、甘草。"
+              },
+              {
+                "medicineId": 81,
+                "medicineName": "银翘解毒片",
+                "price": 10,
+                "effect": "疏风解表，清热解毒。用于风热感冒，症见发热头痛，咳嗽口干咽喉疼痛。",
+                "composition": "金银花、连翘、薄荷、荆芥、淡豆豉、牛蒡子（炒）、桔梗、淡竹叶、甘草。辅料：淀粉、硬脂酸镁。"
+              },
+              {
+                "medicineId": 82,
+                "medicineName": "桑菊感冒片",
+                "price": 12.5,
+                "effect": "疏风清热，宣肺止咳。用于风热感冒初起，头痛，咳嗽，口干，咽痛。",
+                "composition": "薄荷素油、甘草、桔梗、菊花、苦杏仁、连翘、芦根、桑叶。"
+              },
+              {
+                "medicineId": 83,
+                "medicineName": "羚翘解毒片",
+                "price": 20,
+                "effect": "辛凉解表，清热解毒。用于外感温邪或风热引起的畏风发热、四肢酸懒，头痛鼻塞，咳嗽咽痛。",
+                "composition": "羚羊角粉、金银花、连翘、荆芥穗、薄荷、牛蒡子（炒）、淡豆豉、淡竹叶、桔梗、甘草、冰片。辅料：淀粉、硬脂酸镁。"
+              },
+              {
+                "medicineId": 84,
+                "medicineName": "板蓝根颗粒",
+                "price": 13.9,
+                "effect": "清热解毒，凉血利咽。用于肺胃热盛所致的咽喉肿痛、口咽干燥，急性扁桃体炎见上述症候者。",
+                "composition": "板蓝根。辅料：蔗糖、糊精。"
+              },
+              {
+                "medicineId": 85,
+                "medicineName": "牛黄解毒片",
+                "price": 2.5,
+                "effect": "清热解毒。用于火热内盛，咽喉肿痛，牙龈肿痛，口舌生疮，目赤肿痛。",
+                "composition": "牛黄、雄黄、石膏、大黄、黄芩、桔梗、冰片、甘草。"
+              },
+              {
+                "medicineId": 86,
+                "medicineName": "抗病毒口服液",
+                "price": 17.5,
+                "effect": "清热祛湿，凉血解毒。用于风热感冒，温病发热及上呼吸道感染、流感、腮腺炎等病毒感染疾患。",
+                "composition": "板蓝根、石膏、芦根、地黄、郁金、知母、石菖蒲、广藿香、连翘。辅料：蔗糖、蜂蜜、环拉酸钠、桔子香精、羟丙基倍他环糊精。"
+              }
+            ],
+            "outsideOperations": [
+              {
+                "id": 2301,
+                "sicName": "风热感冒",
+                "opeName": "针刺",
+                "content1": "主穴：风池、大椎、太阳、列缺、合谷、曲池、尺泽",
+                "content2": "配穴：咽喉疼痛加少商"
+              },
+              {
+                "id": 2302,
+                "sicName": "风热感冒",
+                "opeName": "刺络拔罐",
+                "content1": "选穴：大椎、风门、身柱、肺俞",
+                "content2": "操作：消毒后，用三棱针点刺，使其自然出血，待出血颜色转淡后，加火罐于穴位上，留罐10分钟后起罐"
+              },
+              {
+                "id": 2303,
+                "sicName": "风热感冒",
+                "opeName": "耳穴压豆",
+                "content1": "肺、内鼻、下屏尖、额；咽痛加咽喉、扁桃体"
+              },
+              {
+                "id": 2304,
+                "sicName": "风热感冒",
+                "opeName": "风热感冒熏蒸方",
+                "content1": "药物：东桑叶10g，白菊花10g，薄荷叶6g，板蓝根10g",
+                "content2": "用法：上药剉细，装入小热水瓶内，倒入沸水，盖上瓶塞半小时，然后打开瓶塞，用鼻吸其蒸汽，时间20~30分钟，1日2~3次，再次使用前将药汁倒出加温至沸腾"
+              },
+              {
+                "id": 2305,
+                "sicName": "风热感冒",
+                "opeName": "推拿按摩",
+                "content1": "（1）取坐位，术者立其前方用禅推法自印堂上推经神庭至百会穴，再沿眉弓横推至太阳，最后沿两侧鼻翼向下推至迎香，并在印堂、神庭、百会、太阳、迎香、攒竹穴用拇指指腹端按揉，整个过程10分钟。（2）取坐位，术者立其身后，用手小鱼际㨰颈、项、肩部3分钟，再用拇指指腹端按揉风池、风府、风门穴各1分钟，最后用拇食中指提拿肩井穴1分钟。",
+                "content2": "（3）取仰卧位，术者立其侧，用拇指指端持续按压合谷、曲池、尺泽、外关、鱼际、列缺穴各1分钟，再用手掌自上而下擦胸50次。（4）取俯卧位，术者立其侧，用禅推法推大椎穴1分钟，再自上而下推背部足太阳膀胱经，没侧重复5遍，以微微出汗为度，最后用小鱼际擦涌泉、委中穴各2分钟。"
+              },
+              {
+                "id": 2306,
+                "sicName": "风热感冒",
+                "opeName": "火疗",
+                "content1": "选穴：头维、太阳、大椎、肺俞",
+                "content2": "操作：先采用藏经基因活力精油液浸泡的精油片放于上述穴位，通过明火燃烧升温增强免疫力，再通过藏经按摩手法加快肌体抵抗力迅速达到祛除感冒症状的目的。"
+              },
+              {
+                "id": 2307,
+                "sicName": "风热感冒",
+                "opeName": "拔罐疗法",
+                "content1": "选穴：太阳、印堂、曲池、合谷",
+                "content2": "操作：采用针罐或刺络拔罐法，留罐15分钟"
+              },
+              {
+                "id": 2308,
+                "sicName": "风热感冒",
+                "opeName": "代茶饮",
+                "content1": "药物：葱白3根，淡豆豉15克，荆芥0.3克，薄荷3克，栀子4.5克，生石膏30克",
+                "content2": "操作：水煎取汁，加茶叶末10克，再煮3分钟即可，每日1剂"
+              },
+              {
+                "id": 2309,
+                "sicName": "风热感冒",
+                "opeName": "中药泡脚方",
+                "content1": "1.生姜蒲公英汤：生姜50克，蒲公英100克。将生姜切细，蒲公英择净，同放药罐中，加清水适量，浸泡5～10分钟后，水煎取汁。放入浴盆中，候温浴足，每次10～30分钟，每日两次。每日一剂，连续3～5天。",
+                "content2": "2.板蓝根蒲公英汤：板蓝根、大青叶、蒲公英各30克。将上药择净，同放药罐中，加清水适量，浸泡5～10分钟后，水煎取汁。用法同上。"
+              }
+            ]
+          },
+          "header": {
+            "Content-Length": "5601",
+            "Content-Type": "text/plain;charset=UTF-8",
+            "Date": "Sat, 15 Dec 2018 14:12:11 GMT",
+            "X-Android-Received-Millis": "1544883131168",
+            "X-Android-Response-Source": "NETWORK 200",
+            "X-Android-Selected-Protocol": "http/1.1",
+            "X-Android-Sent-Millis": "1544883130970"
+          },
+          "statusCode": 200,
+          "errMsg": "request:ok"
+        }
+      },
+      "dur": 566000
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 21834000,
+      "args": {
+        "FPS": 52.631579
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 21949000,
+      "args": {
+        "FPS": 52.173913
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 22065000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "CPU(%)",
+      "ph": "C",
+      "ts": 23376000,
+      "args": {
+        "CPU": 12.671509
+      },
+      "min": 0,
+      "max": 100
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "MEMORY(MB)",
+      "ph": "C",
+      "ts": 23511000,
+      "args": {
+        "MEMORY": 224
+      },
+      "min": 0,
+      "max": 5730.03125
+    },
+    {
+      "pid": 2,
+      "tid": 7,
+      "cat": "page/htzx/middle/middle",
+      "name": "Page.st1",
+      "ph": "X",
+      "ts": 25499000,
+      "dur": 7000
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 25537000,
+      "args": {
+        "FPS": 52.173913
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 2,
+      "tid": 7,
+      "cat": "page/htzx/middle/middle",
+      "name": "Page.onHide",
+      "ph": "X",
+      "ts": 25543000,
+      "dur": 1000
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "ts": 0,
+      "pid": 2,
+      "tid": 8,
+      "cat": "__metadata",
+      "args": {
+        "name": "page/htzx/outsideoperation/outsideoperation"
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 8,
+      "cat": "page/htzx/outsideoperation/outsideoperation",
+      "name": "Page.onLoad",
+      "ph": "X",
+      "ts": 25566000,
+      "dur": 8000
+    },
+    {
+      "pid": 2,
+      "tid": 8,
+      "cat": "page/htzx/outsideoperation/outsideoperation",
+      "name": "Page.onShow",
+      "ph": "X",
+      "ts": 25576000,
+      "dur": 0
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.navigateTo",
+      "ph": "X",
+      "ts": 25502000,
+      "args": {
+        "args": {
+          "url": "page/htzx/outsideoperation/outsideoperation.html?req=3723%2C3724%2C3727%2C3729%2C3731%2C3733%2C3734%2C3736%2C3739%2C3740&sick=%E6%84%9F%E5%86%92"
+        },
+        "res": {
+          "errMsg": "navigateTo:ok"
+        }
+      },
+      "dur": 76000
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.setNavigationBarTitle",
+      "ph": "X",
+      "ts": 25567000,
+      "args": {
+        "args": {
+          "title": "外治法诊断结果"
+        },
+        "res": {
+          "errMsg": "setNavigationBarTitle:ok"
+        }
+      },
+      "dur": 30000
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.setNavigationBarColor",
+      "ph": "X",
+      "ts": 25567000,
+      "args": {
+        "args": {
+          "frontColor": "#ffffff",
+          "backgroundColor": "#855eef"
+        },
+        "res": {
+          "errMsg": "setNavigationBarColor:ok"
+        }
+      },
+      "dur": 34000
+    },
+    {
+      "pid": 2,
+      "tid": 8,
+      "cat": "page/htzx/outsideoperation/outsideoperation",
+      "name": "Page.onReady",
+      "ph": "X",
+      "ts": 25651000,
+      "dur": 0
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 25761000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 2,
+      "tid": 8,
+      "cat": "page/htzx/outsideoperation/outsideoperation",
+      "name": "Page.setData",
+      "ph": "B",
+      "ts": 26129000,
+      "args": {
+        "dataSize": 2691
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 8,
+      "cat": "page/htzx/outsideoperation/outsideoperation",
+      "name": "Page.setData",
+      "ph": "E",
+      "ts": 26129000,
+      "args": {
+        "dataSize": 2691
+      }
+    },
+    {
+      "pid": 2,
+      "tid": 4,
+      "cat": "API",
+      "name": "wx.request",
+      "ph": "X",
+      "ts": 25570000,
+      "args": {
+        "args": {
+          "url": "https://www.wyzyschool.com/htzx/msmapper",
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "data": {
+            "illname": "感冒",
+            "us": [
+              3723,
+              3724,
+              3727,
+              3729,
+              3731,
+              3733,
+              3734,
+              3736,
+              3739,
+              3740
+            ]
+          },
+          "header": {
+            "content-type": "application/json"
+          },
+          "dataType": "json"
+        },
+        "res": {
+          "data": {
+            "sickname": "风热感冒",
+            "medicines": [
+              {
+                "medicineId": 80,
+                "medicineName": "莲花清瘟颗粒",
+                "price": 29,
+                "effect": "清瘟解毒，宣肺泄热。用于治疗流行性感冒属热毒袭肺证，症见发热或高热恶寒、肌肉酸痛、鼻塞流涕、咳嗽、头痛、咽干咽痛。",
+                "composition": "连翘、金银花、麻黄、炒苦杏仁、石膏、板蓝根、绵马贯众、鱼腥草、广藿香、大黄、红景天、薄荷脑、甘草。"
+              },
+              {
+                "medicineId": 81,
+                "medicineName": "银翘解毒片",
+                "price": 10,
+                "effect": "疏风解表，清热解毒。用于风热感冒，症见发热头痛，咳嗽口干咽喉疼痛。",
+                "composition": "金银花、连翘、薄荷、荆芥、淡豆豉、牛蒡子（炒）、桔梗、淡竹叶、甘草。辅料：淀粉、硬脂酸镁。"
+              },
+              {
+                "medicineId": 82,
+                "medicineName": "桑菊感冒片",
+                "price": 12.5,
+                "effect": "疏风清热，宣肺止咳。用于风热感冒初起，头痛，咳嗽，口干，咽痛。",
+                "composition": "薄荷素油、甘草、桔梗、菊花、苦杏仁、连翘、芦根、桑叶。"
+              },
+              {
+                "medicineId": 83,
+                "medicineName": "羚翘解毒片",
+                "price": 20,
+                "effect": "辛凉解表，清热解毒。用于外感温邪或风热引起的畏风发热、四肢酸懒，头痛鼻塞，咳嗽咽痛。",
+                "composition": "羚羊角粉、金银花、连翘、荆芥穗、薄荷、牛蒡子（炒）、淡豆豉、淡竹叶、桔梗、甘草、冰片。辅料：淀粉、硬脂酸镁。"
+              },
+              {
+                "medicineId": 84,
+                "medicineName": "板蓝根颗粒",
+                "price": 13.9,
+                "effect": "清热解毒，凉血利咽。用于肺胃热盛所致的咽喉肿痛、口咽干燥，急性扁桃体炎见上述症候者。",
+                "composition": "板蓝根。辅料：蔗糖、糊精。"
+              },
+              {
+                "medicineId": 85,
+                "medicineName": "牛黄解毒片",
+                "price": 2.5,
+                "effect": "清热解毒。用于火热内盛，咽喉肿痛，牙龈肿痛，口舌生疮，目赤肿痛。",
+                "composition": "牛黄、雄黄、石膏、大黄、黄芩、桔梗、冰片、甘草。"
+              },
+              {
+                "medicineId": 86,
+                "medicineName": "抗病毒口服液",
+                "price": 17.5,
+                "effect": "清热祛湿，凉血解毒。用于风热感冒，温病发热及上呼吸道感染、流感、腮腺炎等病毒感染疾患。",
+                "composition": "板蓝根、石膏、芦根、地黄、郁金、知母、石菖蒲、广藿香、连翘。辅料：蔗糖、蜂蜜、环拉酸钠、桔子香精、羟丙基倍他环糊精。"
+              }
+            ],
+            "outsideOperations": [
+              {
+                "id": 2301,
+                "sicName": "风热感冒",
+                "opeName": "针刺",
+                "content1": "主穴：风池、大椎、太阳、列缺、合谷、曲池、尺泽",
+                "content2": "配穴：咽喉疼痛加少商"
+              },
+              {
+                "id": 2302,
+                "sicName": "风热感冒",
+                "opeName": "刺络拔罐",
+                "content1": "选穴：大椎、风门、身柱、肺俞",
+                "content2": "操作：消毒后，用三棱针点刺，使其自然出血，待出血颜色转淡后，加火罐于穴位上，留罐10分钟后起罐"
+              },
+              {
+                "id": 2303,
+                "sicName": "风热感冒",
+                "opeName": "耳穴压豆",
+                "content1": "肺、内鼻、下屏尖、额；咽痛加咽喉、扁桃体"
+              },
+              {
+                "id": 2304,
+                "sicName": "风热感冒",
+                "opeName": "风热感冒熏蒸方",
+                "content1": "药物：东桑叶10g，白菊花10g，薄荷叶6g，板蓝根10g",
+                "content2": "用法：上药剉细，装入小热水瓶内，倒入沸水，盖上瓶塞半小时，然后打开瓶塞，用鼻吸其蒸汽，时间20~30分钟，1日2~3次，再次使用前将药汁倒出加温至沸腾"
+              },
+              {
+                "id": 2305,
+                "sicName": "风热感冒",
+                "opeName": "推拿按摩",
+                "content1": "（1）取坐位，术者立其前方用禅推法自印堂上推经神庭至百会穴，再沿眉弓横推至太阳，最后沿两侧鼻翼向下推至迎香，并在印堂、神庭、百会、太阳、迎香、攒竹穴用拇指指腹端按揉，整个过程10分钟。（2）取坐位，术者立其身后，用手小鱼际㨰颈、项、肩部3分钟，再用拇指指腹端按揉风池、风府、风门穴各1分钟，最后用拇食中指提拿肩井穴1分钟。",
+                "content2": "（3）取仰卧位，术者立其侧，用拇指指端持续按压合谷、曲池、尺泽、外关、鱼际、列缺穴各1分钟，再用手掌自上而下擦胸50次。（4）取俯卧位，术者立其侧，用禅推法推大椎穴1分钟，再自上而下推背部足太阳膀胱经，没侧重复5遍，以微微出汗为度，最后用小鱼际擦涌泉、委中穴各2分钟。"
+              },
+              {
+                "id": 2306,
+                "sicName": "风热感冒",
+                "opeName": "火疗",
+                "content1": "选穴：头维、太阳、大椎、肺俞",
+                "content2": "操作：先采用藏经基因活力精油液浸泡的精油片放于上述穴位，通过明火燃烧升温增强免疫力，再通过藏经按摩手法加快肌体抵抗力迅速达到祛除感冒症状的目的。"
+              },
+              {
+                "id": 2307,
+                "sicName": "风热感冒",
+                "opeName": "拔罐疗法",
+                "content1": "选穴：太阳、印堂、曲池、合谷",
+                "content2": "操作：采用针罐或刺络拔罐法，留罐15分钟"
+              },
+              {
+                "id": 2308,
+                "sicName": "风热感冒",
+                "opeName": "代茶饮",
+                "content1": "药物：葱白3根，淡豆豉15克，荆芥0.3克，薄荷3克，栀子4.5克，生石膏30克",
+                "content2": "操作：水煎取汁，加茶叶末10克，再煮3分钟即可，每日1剂"
+              },
+              {
+                "id": 2309,
+                "sicName": "风热感冒",
+                "opeName": "中药泡脚方",
+                "content1": "1.生姜蒲公英汤：生姜50克，蒲公英100克。将生姜切细，蒲公英择净，同放药罐中，加清水适量，浸泡5～10分钟后，水煎取汁。放入浴盆中，候温浴足，每次10～30分钟，每日两次。每日一剂，连续3～5天。",
+                "content2": "2.板蓝根蒲公英汤：板蓝根、大青叶、蒲公英各30克。将上药择净，同放药罐中，加清水适量，浸泡5～10分钟后，水煎取汁。用法同上。"
+              }
+            ]
+          },
+          "header": {
+            "Content-Length": "5601",
+            "Content-Type": "text/plain;charset=UTF-8",
+            "Date": "Sat, 15 Dec 2018 14:12:16 GMT",
+            "X-Android-Received-Millis": "1544883135729",
+            "X-Android-Response-Source": "NETWORK 200",
+            "X-Android-Selected-Protocol": "http/1.1",
+            "X-Android-Sent-Millis": "1544883135545"
+          },
+          "statusCode": 200,
+          "errMsg": "request:ok"
+        }
+      },
+      "dur": 580000
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 26402000,
+      "args": {
+        "FPS": 10.600707
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 26504000,
+      "args": {
+        "FPS": 44.247788
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "CPU(%)",
+      "ph": "C",
+      "ts": 26517000,
+      "args": {
+        "CPU": 7.029015
+      },
+      "min": 0,
+      "max": 100
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "MEMORY(MB)",
+      "ph": "C",
+      "ts": 26613000,
+      "args": {
+        "MEMORY": 246
+      },
+      "min": 0,
+      "max": 5730.03125
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 26619000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 26735000,
+      "args": {
+        "FPS": 34.782609
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 26851000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 27618000,
+      "args": {
+        "FPS": 27.322404
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 27745000,
+      "args": {
+        "FPS": 15.267176
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 27860000,
+      "args": {
+        "FPS": 52.173913
+      },
+      "min": 0,
+      "max": 60
+    },
+    {
+      "pid": 1,
+      "tid": 1,
+      "cat": "Hardware",
+      "name": "FPS",
+      "ph": "C",
+      "ts": 27974000,
+      "args": {
+        "FPS": 60
+      },
+      "min": 0,
+      "max": 60
+    }
+  ],
+  "otherData": {
+    "version": "1.0.0"
+  }
+}

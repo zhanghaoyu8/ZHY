@@ -1,0 +1,14 @@
+<!--page/htzx/sickness/sickness.wxml-->
+<view class="container">
+  <view class="sicknessName">
+  <picker-view class='zhongyi-title'>中医</picker-view>
+  <picker-view class='zhongyi-title' style="padding-top:0">{{major}}</picker-view>
+  <image src='{{img}}'></image>
+   <view class='ins'>{{ins}}</view>
+  </view>
+  <view>
+  </view>
+  <scroll-view scroll-y="true">
+    <navigator wx:for="{{illnessName}}"  class="scroll-view-item" url="../describe/describe?sick={{item}}" wx:key="">{{item}}</navigator>
+  </scroll-view>
+</view>

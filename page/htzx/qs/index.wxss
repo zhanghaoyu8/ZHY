@@ -1,0 +1,27 @@
+/* page/htzx/qs/index.wxss */
+@import "../../common/lib/weui.wxss";
+
+.radio {
+  margin-right: 20rpx;
+}
+.container{
+  background-image: url("../../image/111.jpg");
+}
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.button-sp-area{
+  margin: 0 auto;
+  width: 60%;
+}
+.mini-btn{
+  margin-right: 10rpx;
+}
+.sk{
+  text-align:center;
+  margin:20px 0 0 0;
+  font-size:28px;
+  font-family:华文行楷;
+  color: #7030bb;
+}

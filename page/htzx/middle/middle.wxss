@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'jdlibianjian1222ff57fb1cede';
+  src: url('//cdn.webfont.youziku.com/webfonts/nomal/118494/19650/5b017e7af629d91128b74553.gif?r=77806463859');
+  src: url('//cdn.webfont.youziku.com/webfonts/nomal/118494/19650/5b017e7af629d91128b74553.gif?r=77806463859?#iefix') format('embedded-opentype'),
+         url('//cdn.webfont.youziku.com/webfonts/nomal/118494/19650/5b017e7af629d91128b74553.png?r=77806463859') format('woff2'),
+         url('//cdn.webfont.youziku.com/webfonts/nomal/118494/19650/5b017e7af629d91128b74553.bmp?r=77806463859') format('woff'),
+         url('//cdn.webfont.youziku.com/webfonts/nomal/118494/19650/5b017e7af629d91128b74553.jpg?r=77806463859') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.css1222ff57fb1cede {
+  font-family: 'jdlibianjian1222ff57fb1cede';
+}
+
+@font-face {
+  src: url('//cdn.webfont.youziku.com/webfonts/nomal/118494/47382/5b02e822f629df113c4a25c2.gif?r=79586305485');
+  src: url('//cdn.webfont.youziku.com/webfonts/nomal/118494/47382/5b02e822f629df113c4a25c2.gif?r=79586305485?#iefix') format('embedded-opentype'),
+         url('//cdn.webfont.youziku.com/webfonts/nomal/118494/47382/5b02e822f629df113c4a25c2.png?r=79586305485') format('woff2'),
+         url('//cdn.webfont.youziku.com/webfonts/nomal/118494/47382/5b02e822f629df113c4a25c2.bmp?r=79586305485') format('woff'),
+         url('//cdn.webfont.youziku.com/webfonts/nomal/118494/47382/5b02e822f629df113c4a25c2.jpg?r=79586305485') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.css1228840e281cede {
+  font-family: 'CTKaiTiSJ1228840e281cede';
+}
+
+.button-area1{
+  position:absolute;
+  top:50%;
+  border-color:#4016dc;
+  margin: 0 0 0 20%;
+  width: 60%;
+  z-index:2;
+}
+.button-area2{
+  position:absolute;
+  top:67%;
+  border-color:#4016dc;
+  margin: 0 0 0 20%;
+  width: 60%;
+  z-index:2;
+}
+.button-area::after{
+  border-color:#4016dc;
+}
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.title {
+  height: 160px;
+  text-align:center;
+  font-family: 华文行楷;
+  font-size: 290%;
+  padding-top: 20px;
+}
+

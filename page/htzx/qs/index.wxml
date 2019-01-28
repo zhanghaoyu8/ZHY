@@ -1,0 +1,33 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+
+<view class="container">
+<view class="sk">{{sick}}</view>
+  <template is="head" data="{{title: '病情问卷'}}"/>
+
+  <view class="page-body">
+    <block wx:for="{{datas}}">
+    <view class="page-section">
+      <view class="page-section-title" wx:key="{{item.sickname}}">{{index+1+"、"+item.sickname}}</view>
+      <view class="weui-cells weui-cells_after-title">
+        <radio-group bindchange="radioChange" id="{{index}}">
+          <label class="weui-cell weui-check__label" wx:for="{{item.sdPerformance}}" wx:for-item="itm">
+            
+            <view class="weui-cell__hd">
+              <radio value="{{item.sdId[index]}}" />
+            </view>
+            <view class="weui-cell__bd">{{itm}}</view>
+            
+          </label>
+        </radio-group>
+      </view>
+    </view>
+    </block>
+    <view class="button-sp-area">
+      <navigator class="navigator">
+      <button type="primary" plain="true" bindtap='probe'>提交</button>
+      </navigator>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,108 @@
+<view class="index">
+  
+  <view class="index-desc"><text space="nbsp">    萬 義</text></view>
+  <view class="index-desc1"><text space="nbsp">    中 医</text></view>
+  <view class="index-desc2"><text space="nbsp">病情分类</text></view>
+  <view class="index-bd1">
+    <view class="category1">
+      <view class="category_item1" wx:for="{{iconArray1}}">
+      <icon type="success" size="20" color="white"/>
+      <navigator url="sickness/sickness?major={{item.iconText}}" class="navigator">
+        <view class="category_item_wrap1">
+          <view class="icon_wrap1">
+            <image src="{{item.iconUrl}}" class="index_icon1"></image>
+          </view>
+          <view class="category_item_text1">
+            <text>{{item.iconText}}</text>
+          </view>
+        </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+    <view class="index-bd2">
+    <view class="category2">
+      <view class="category_item2" wx:for="{{iconArray2}}">
+      <icon type="success" size="20" color="white"/>
+      <navigator url="sickness/sickness?major={{item.iconText}}" class="navigator">
+        <view class="category_item_wrap2">
+          <view class="icon_wrap2">
+            <image src="{{item.iconUrl}}" class="index_icon2"></image>
+          </view>
+          <view class="category_item_text2">
+            <text>{{item.iconText}}</text>
+          </view>
+        </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="index-bd3">
+    <view class="category3">
+      <view class="category_item3" wx:for="{{iconArray3}}">
+      <icon type="success" size="20" color="white"/>
+      <navigator url="sickness/sickness?major={{item.iconText}}" class="navigator">
+        <view class="category_item_wrap3">
+          <view class="icon_wrap3">
+            <image src="{{item.iconUrl}}" class="index_icon3"></image>
+          </view>
+          <view class="category_item_text3">
+            <text>{{item.iconText}}</text>
+          </view>
+        </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="index-bd4">
+    <view class="category4">
+      <view class="category_item4" wx:for="{{iconArray4}}">
+      <icon type="success" size="20" color="white"/>
+      <navigator url="sickness/sickness?major={{item.iconText}}" class="navigator">
+        <view class="category_item_wrap4">
+          <view class="icon_wrap4">
+            <image src="{{item.iconUrl}}" class="index_icon4"></image>
+          </view>
+          <view class="category_item_text4">
+            <text>{{item.iconText}}</text>
+          </view>
+        </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="index-bd5">
+    <view class="category5">
+      <view class="category_item5" wx:for="{{iconArray5}}">
+      <icon type="success" size="20" color="white"/>
+      <navigator url="sickness/sickness?major={{item.iconText}}" class="navigator">
+        <view class="category_item_wrap5">
+          <view class="icon_wrap5">
+            <image src="{{item.iconUrl}}" class="index_icon5"></image>
+          </view>
+          <view class="category_item_text5">
+            <text>{{item.iconText}}</text>
+          </view>
+        </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="index-bd6">
+    <view class="category6">
+      <view class="category_item6" wx:for="{{iconArray6}}">
+      <icon type="success" size="20" color="white"/>
+      <navigator url="sickness/sickness?major={{item.iconText}}" class="navigator">
+        <view class="category_item_wrap6">
+          <view class="icon_wrap6">
+            <image src="{{item.iconUrl}}" class="index_icon6"></image>
+          </view>
+          <view class="category_item_text6">
+            <text>{{item.iconText}}</text>
+          </view>
+        </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  </view>

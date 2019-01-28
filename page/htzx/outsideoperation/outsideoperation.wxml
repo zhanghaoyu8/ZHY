@@ -1,0 +1,20 @@
+<!--page/htzx/outsideoperation/outsideoperation.wxml-->
+<view class='container'>
+<view class='title'>{{sick}}</view>
+ 
+  <scroll-view scroll-y="true">
+  <navigator class="scroll-view-item" wx:for='{{outsideoperation}}' wx:key=''>
+    
+        <view class='ins'>
+        <picker-view value="{{value}}" bingchange="bindChange" indicator-style="height:45px;"  style="width: 100%; height: 45px;"><picker-view-column><view style="line-height:45px;text-align:center;font-weight:bold">{{item.opeName}}</view></picker-view-column></picker-view>
+    
+    </view>
+
+
+     
+    <view><text>{{item.content1}}\n{{item.content2}}\n{{item.content3}}</text></view>
+    </navigator>
+   
+</scroll-view>
+
+</view>

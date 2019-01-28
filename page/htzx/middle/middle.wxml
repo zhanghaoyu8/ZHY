@@ -1,0 +1,11 @@
+<!--page/htzx/middle/middle.wxml-->
+<view class='container'>
+<view class='title'>{{sick}}</view>
+ 
+<view class="button-area1">
+  <button type="choose1" plain="true" bindtap='st1'><text style="color:#4016dc">查看外治法推荐</text></button>
+</view>
+<view class="button-area2">
+  <button type="choose2" plain="true" bindtap='st2'><text style="color:#4016dc">查看药物推荐</text></button>
+</view>
+</view>

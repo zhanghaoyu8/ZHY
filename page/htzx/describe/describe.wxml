@@ -1,0 +1,17 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+
+<view class="container">
+
+
+   <template is="head" data="{{title: sick}}"/>
+  <template is="head" data="{{title: '疾病介绍'}}"/>
+  <view class="page-body">
+    <view class="button-sp-area">
+      <navigator class="navigator">
+      <button type="primary" plain="true" bindtap='probe'>下一步</button>
+      </navigator>
+    </view>
+  </view>
+
+</view>

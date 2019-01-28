@@ -1,0 +1,7 @@
+<!--page/htzx/shouye/shouye.wxml-->
+<view class="bg">
+<view class="tupian"><image style="width:100vw;height:99vh" mode="{{mode}}" src="{{src}}"></image></view>
+<view class="button-area">
+    <button type="warn" plain="true" bindtap='st'><text style="color:#4016dc">同意声明并开始使用</text></button>
+      </view>
+</view>

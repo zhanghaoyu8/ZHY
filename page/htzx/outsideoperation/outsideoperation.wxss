@@ -1,0 +1,121 @@
+/* page/htzx/outsideoperation/outsideoperation.wxss */
+
+@font-face {
+  font-family: 'jdlibianjian1222ff57fb1cede';
+  src: url('//cdn.webfont.youziku.com/webfonts/nomal/118494/19650/5b017e7af629d91128b74553.gif?r=77806463859');
+  src: url('//cdn.webfont.youziku.com/webfonts/nomal/118494/19650/5b017e7af629d91128b74553.gif?r=77806463859?#iefix') format('embedded-opentype'),
+         url('//cdn.webfont.youziku.com/webfonts/nomal/118494/19650/5b017e7af629d91128b74553.png?r=77806463859') format('woff2'),
+         url('//cdn.webfont.youziku.com/webfonts/nomal/118494/19650/5b017e7af629d91128b74553.bmp?r=77806463859') format('woff'),
+         url('//cdn.webfont.youziku.com/webfonts/nomal/118494/19650/5b017e7af629d91128b74553.jpg?r=77806463859') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.css1222ff57fb1cede {
+  font-family: 'jdlibianjian1222ff57fb1cede';
+}
+
+@font-face {
+  src: url('//cdn.webfont.youziku.com/webfonts/nomal/118494/47382/5b02e822f629df113c4a25c2.gif?r=79586305485');
+  src: url('//cdn.webfont.youziku.com/webfonts/nomal/118494/47382/5b02e822f629df113c4a25c2.gif?r=79586305485?#iefix') format('embedded-opentype'),
+         url('//cdn.webfont.youziku.com/webfonts/nomal/118494/47382/5b02e822f629df113c4a25c2.png?r=79586305485') format('woff2'),
+         url('//cdn.webfont.youziku.com/webfonts/nomal/118494/47382/5b02e822f629df113c4a25c2.bmp?r=79586305485') format('woff'),
+         url('//cdn.webfont.youziku.com/webfonts/nomal/118494/47382/5b02e822f629df113c4a25c2.jpg?r=79586305485') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.css1228840e281cede {
+  font-family: 'CTKaiTiSJ1228840e281cede';
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.title {
+  height: 60px;
+  font-family: 'jin_mei_xmbyk12b8012e361cede';
+  text-align: center;
+  font-size: 190%;
+  padding-top: 20px;
+}
+
+.medicineName {
+  font-size: 105%;
+  letter-spacing: 3px;
+  width: 63%;
+  height: 100%;
+  display: inline-block;
+  text-align: left;
+}
+
+scroll-view {
+  width: 100%;
+  height: auto;
+}
+
+.scroll-view-item {
+  width: 100%;
+  height: 80%;
+  border-top: 1px gray solid;
+}
+
+.price {
+  color: #fc7b7b;
+  padding-right: 10px;
+  font-size: 85%;
+  width: 31%;
+  display: inline-block;
+  height: 100%;
+  text-align: right;
+}
+
+.add-view {
+  width: 100%;
+  height: 40%;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.ins {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 50%;
+  text-align: left;
+  width: 94%;
+  font-size: 40rpx;
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+picker-view {
+  letter-spacing: 5px;
+  padding-bottom: 7px;
+}
+
+page_bd {
+  margin: 10px;
+}
+
+.section {
+  margin: 10px;
+}
+
+.section_title {
+  margin: 10px;
+  font-size: 10px;
+}
+
+.picker {
+  margin: 10px;
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+}
+
+.neirong {
+  margin: 10px;
+}

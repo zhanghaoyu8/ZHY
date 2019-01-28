@@ -1,0 +1,8 @@
+.page,.page_hd{
+  width: 100%;
+  overflow: hidden;
+}
+.page_title{
+  width: 100%;
+  padding-left: 36%;
+}

@@ -1,0 +1,24 @@
+/* page/htzx/shouye/shouye.wxss */
+.bg{
+  margin:0;
+  width: 330px; 
+  height: 490px;
+}
+.tupian{
+  position:absolute;
+  margin:0;
+  z-index: 1;
+}
+.button-area{
+  position:absolute;
+  top:87%;
+  border-color:#4016dc;
+  margin:0 0 0 22%;
+  z-index:2;
+}
+
+.button-area::after{
+  border-color:#4016dc;
+}
+
+
